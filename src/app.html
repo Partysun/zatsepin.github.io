@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="color-scheme" content="light dark" />
+		<meta
+			name="theme-color"
+			media="(prefers-color-scheme: light)"
+			content="#C2E6E9"
+		/>
+		<meta
+			name="theme-color"
+			media="(prefers-color-scheme: dark)"
+			content="#163F45"
+		/>
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+
+		<!-- Twitter stuff -->
+		<meta name="author" content="Yura Zatsepin" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:creator" content="@YuraZatsepin" />
+
+		%svelte.head%
+	</head>
+	<body>
+		<div id="svelte">%svelte.body%</div>
+	</body>
+</html>
