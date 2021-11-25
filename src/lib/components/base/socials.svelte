@@ -23,6 +23,7 @@
 	import TwitterIcon from '$lib/svg/socials/twitter.svelte'
 	import GitHubIcon from '$lib/svg/socials/github.svelte'
 	import LinkedInIcon from '$lib/svg/socials/linkedin.svelte'
+	import SanbaseIcon from '$lib/svg/socials/sanbase.svelte'
 </script>
 
 <div class="socials">
@@ -58,4 +59,11 @@
 	>
 		<LinkedInIcon />
 	</a>
+    <a 
+        href="https://app.santiment.net/profile/120"
+		target="_blank"
+		rel="noopener"
+        title="Connect on Sanbase">
+		<SanbaseIcon />
+    </a>
 </div>
